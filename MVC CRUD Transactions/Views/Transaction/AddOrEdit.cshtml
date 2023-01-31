@@ -1,15 +1,13 @@
 ﻿@model MVC_CRUD_Transactions.Models.Transaction
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Transaction";
 }
-
-<h1>Create</h1>
 
 <h4>Transaction</h4>
 <hr />
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-6 offset-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
